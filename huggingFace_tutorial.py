@@ -1,5 +1,7 @@
 """
 Unable to run this on M1 chip Macbook pro since this requires a package that uses cuda. 
+
+Code is from Hugging Face Tutorial https://huggingface.co/learn/cookbook/en/fine_tuning_code_llm_on_single_gpu
 """
 from mlx_lm import load, generate
 
